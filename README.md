@@ -52,3 +52,20 @@ Our code uses Derek Liu and colleagues' code for [Surface Multigrid via Intrinsi
 
 ## Data
 [Please find the source and author of each mesh used in our experiments in the linked sheet.](https://docs.google.com/spreadsheets/d/1s5ogLIqmCHthTtyOcgc1SADOlBfXtgP1vG7Qh-oaVdk/edit?usp=sharing)
+
+# Citations
+Please cite our paper if this code contributes to an academic publication:
+
+```bib
+@Article{WiersmaNasikun2023GravoMG,
+author = {Ruben Wiersma, Ahmad Nasikun, Elmar Eisemann, Klaus Hildebrandt},
+journal = {SIGGRAPH 2023},
+title = {A Fast Geometric Multigrid Method for Curved Surfaces},
+year = {2023},
+month = jul,
+number = {4},
+volume = {41},
+doi = {10.1145/3588432.3591502},
+publisher = {ACM}
+}
+```
