@@ -13,18 +13,18 @@ This repository contains the code to replicate the SIGGRAPH 2023 paper, includin
 The tables in our paper are created using the scripts in `experiments/table_scripts`. These scripts require you to build and install a Python package, using pip.
 
 ## Setting up the environment
-0. Clone this repository, including the submodules (required to pull in Pybind11), and change into the directory:
-```
+1. Clone this repository, including the submodules (required to pull in Pybind11), and change into the directory:
+```bash
 $ git clone --recurse-submodules https://github.com/rubenwiersma/gravo-mg.git
 $ cd gravo-mg
 ```
-1. Create a Conda environment with the necessary requirements and activate environment:
-```
+2. Create a Conda environment with the necessary requirements and activate environment:
+```bash
 $ conda env create -f environment.yml
 $ conda activate gravomg
 ```
-2. Install the `gravomg` Python package:
-```
+3. Install the `gravomg` Python package:
+```bash
 $ pip install -e ./gravomg_bindings
 ```
 
@@ -34,7 +34,7 @@ This builds the Gravo MG C++ library and wraps it in a Python binding.
 First, [download the data](https://surfdrive.surf.nl/files/index.php/s/gOAGyWdSVJVPrBb), unzip, and place it in the `gravo-mg` folder. The result should be a folder `data` in the root of this repository.
 
 You can run each experiment from the experiments folder, e.g.:
-```
+```bash
 $ sh experiments/table_scripts/comparison_poisson.sh
 ```
 
