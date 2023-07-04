@@ -1,0 +1,3 @@
+[submodule "gravomg_bindings/deps/pybind11"]
+	path = gravomg_bindings/deps/pybind11
+	url = https://github.com/pybind/pybind11.git
