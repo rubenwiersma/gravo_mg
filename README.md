@@ -2,7 +2,7 @@
 [[Paper]](https://graphics.tudelft.nl/~klaus/papers/Gravo_MG.pdf) [[Project page]](https://rubenwiersma.nl/gravomg)
 ![](https://rubenwiersma.nl/assets/img/publications/gravomg/teaser_gravomg.png)
 
-Repository for **SIGGRAPH 2023** paper **"A Fast Geometric Multigrid Method for Curved Surfaces"** by Ruben Wiersma, Ahmad Nasikun (equal contribution); Elmar Eisemann; Klaus Hildebrandt.
+Repository for **SIGGRAPH 2023** paper **"A Fast Geometric Multigrid Method for Curved Surfaces"** by Ruben Wiersma, [Ahmad Nasikun](https://github.com/a-nasikun) (equal contribution); Elmar Eisemann; Klaus Hildebrandt.
 
 This repository contains code for Gravo MG: an approach to solve linear systems on curved surfaces quickly. We make use of a geometric multigrid method that solves the system by iterating on several levels in a hierarchy. Gravo MG is a fast way to compute this hierarchy that keeps solving times low.
 
