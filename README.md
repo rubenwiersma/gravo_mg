@@ -1,10 +1,13 @@
 # Gravo MG: Graph Voronoi Multigrid
 [[Paper]](https://graphics.tudelft.nl/~klaus/papers/Gravo_MG.pdf) [[Project page]](https://rubenwiersma.nl/gravomg)
+
 ![](https://rubenwiersma.nl/assets/img/publications/gravomg/teaser_gravomg.png)
 
-Repository for **SIGGRAPH 2023** paper **"A Fast Geometric Multigrid Method for Curved Surfaces"** by Ruben Wiersma, [Ahmad Nasikun](https://github.com/a-nasikun) (equal contribution); Elmar Eisemann; Klaus Hildebrandt.
+Repository for **"A Fast Geometric Multigrid Method for Curved Surfaces"**, published at **SIGGRAPH 2023**
+<br />
+by Ruben Wiersma, [Ahmad Nasikun](https://github.com/a-nasikun) (equal contribution); Elmar Eisemann; Klaus Hildebrandt.
 
-This repository contains code for Gravo MG: an approach to solve linear systems on curved surfaces quickly. We make use of a geometric multigrid method that solves the system by iterating on several levels in a hierarchy. Gravo MG is a fast way to compute this hierarchy that keeps solving times low.
+If you need to solve linear systems on meshes or point clouds with >50.000 vertices, Gravo MG is what you need. Gravo MG is a fast geometric multigrid method that quickly computes a hierarchy used in an iterative multigrid solver. The use of graph Voronoi cells enables fast convergence, while allowing for fast construction.
 
 ## Coming soon: Standalone C++ and Python libraries
 This repository contains the code to replicate the SIGGRAPH 2023 paper, including ablations and comparisons. That means the repository contains many components that are not strictly relevant for using Gravo MG. We plan to release a smaller, more lightweight library in the coming weeks.
