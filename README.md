@@ -18,17 +18,23 @@ The tables in our paper are created using the scripts in `experiments/table_scri
 ### Setting up the environment
 1. Clone this repository, including the submodules (required to pull in Pybind11), and change into the directory:
 ```bash
-$ git clone --recursive https://github.com/rubenwiersma/gravo-mg.git
-$ cd gravo-mg
+git clone --recursive https://github.com/rubenwiersma/gravo-mg.git
+cd gravo-mg
 ```
+
+If you forgot to use the `--recursive` flag, you can pull the required submodules with
+```bash
+git submodule update --init --recursive
+```
+
 2. Create a Conda environment with the necessary requirements and activate environment:
 ```bash
-$ conda env create -f environment.yml
-$ conda activate gravomg
+conda env create -f environment.yml
+conda activate gravomg
 ```
 3. Install the `gravomg` Python package:
 ```bash
-$ pip install -e ./gravomg_bindings
+pip install -e ./gravomg_bindings
 ```
 
 This builds the Gravo MG C++ library and wraps it in a Python binding. The `-e` flag 'installs' the package in the current folder, rather than your default Conda folder.
@@ -38,7 +44,7 @@ First, [download the data](https://surfdrive.surf.nl/files/index.php/s/gOAGyWdSV
 
 You can run each experiment from the experiments folder, e.g.:
 ```bash
-$ sh experiments/table_scripts/comparison_poisson.sh
+sh experiments/table_scripts/comparison_poisson.sh
 ```
 
 The output is written in `out/timing` and a formatted LaTeX table in `out/latex`.
