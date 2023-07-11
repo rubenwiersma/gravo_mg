@@ -18,7 +18,7 @@ The tables in our paper are created using the scripts in `experiments/table_scri
 ### Setting up the environment
 1. Clone this repository, including the submodules (required to pull in Pybind11), and change into the directory:
 ```bash
-$ git clone --recurse-submodules https://github.com/rubenwiersma/gravo-mg.git
+$ git clone --recursive https://github.com/rubenwiersma/gravo-mg.git
 $ cd gravo-mg
 ```
 2. Create a Conda environment with the necessary requirements and activate environment:
@@ -31,7 +31,7 @@ $ conda activate gravomg
 $ pip install -e ./gravomg_bindings
 ```
 
-This builds the Gravo MG C++ library and wraps it in a Python binding.
+This builds the Gravo MG C++ library and wraps it in a Python binding. The `-e` flag 'installs' the package in the current folder, rather than your default Conda folder.
 
 ### Running the experiments
 First, [download the data](https://surfdrive.surf.nl/files/index.php/s/gOAGyWdSVJVPrBb), unzip, and place it in the `gravo-mg` folder. The result should be a folder `data` in the root of this repository.
