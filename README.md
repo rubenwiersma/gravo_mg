@@ -37,7 +37,7 @@ conda activate gravomg
 pip install -e ./gravomg_bindings
 ```
 
-This builds the Gravo MG C++ library and wraps it in a Python binding. The `-e` flag 'installs' the package in the current folder, rather than your default Conda folder.
+This builds the Gravo MG C++ library and wraps it in a Python binding. The `-e` flag installs the package in the current folder, rather than your default Conda folder.
 
 ### Running the experiments
 First, [download the data](https://surfdrive.surf.nl/files/index.php/s/gOAGyWdSVJVPrBb), unzip, and place it in the `gravo-mg` folder. The result should be a folder `data` in the root of this repository.
@@ -50,7 +50,7 @@ sh experiments/table_scripts/comparison_poisson.sh
 The output is written in `out/timing` and a formatted LaTeX table in `out/latex`.
 
 ### Pardiso
-To compute the timings for Pardiso, make sure that you have [installed Pardiso on your machine](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html). Our library automatically looks for Pardiso in `/usr/include/mkl` and enables it for use when compiling. You can change the search path in `gravomg/CMakeLists.txt`.
+To compute the timings for Pardiso, make sure that you have [installed Intel's OneMKL on your machine](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl.html). Our library automatically looks for OneMKL in `/usr/include/mkl` and enables it for use when compiling. You can change the search path in `gravomg/CMakeLists.txt`.
 
 If you've already installed the `gravomg` package before installing OneMKL, make sure that you reinstall `gravomg`.
 
