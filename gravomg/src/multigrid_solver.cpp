@@ -4,11 +4,6 @@
 #include "gravomg/sampling.h"
 
 #include <igl/invert_diag.h>
-#include <igl/octree.h>
-#include <igl/knn.h>
-#include <igl/jet.h>
-#include <igl/grad.h>
-#include <igl/barycentric_coordinates.h>
 
 #include <cmath>
 
