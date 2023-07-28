@@ -4,7 +4,6 @@
 #include "utility.h"
 
 #include <igl/knn.h>
-#include <igl/opengl/glfw/Viewer.h>
 
 #ifdef PARDISO_ENABLED
 #include "Eigen/PardisoSupport"
