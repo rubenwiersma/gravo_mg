@@ -18,8 +18,8 @@ The tables in our paper are created using the scripts in `experiments/table_scri
 ### Setting up the environment
 1. Clone this repository, including the submodules (required to pull in Pybind11), and change into the directory:
 ```bash
-git clone --recursive https://github.com/rubenwiersma/gravo-mg.git
-cd gravo-mg
+git clone --recursive https://github.com/rubenwiersma/gravo_mg.git
+cd gravo_mg
 ```
 
 If you forgot to use the `--recursive` flag, you can pull the required submodules with
