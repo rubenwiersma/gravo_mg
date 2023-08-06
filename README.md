@@ -1,5 +1,5 @@
 # Gravo MG: Graph Voronoi Multigrid
-[[Paper]](https://graphics.tudelft.nl/~klaus/papers/Gravo_MG.pdf) [[Project page]](https://rubenwiersma.nl/gravomg)
+[[Paper]](https://graphics.tudelft.nl/~klaus/papers/Gravo_MG.pdf) [[Project page]](https://rubenwiersma.nl/gravomg) [[C++ library]](https://github.com/rubenwiersma/gravo_mg_cpp) [[Python Bindings]](https://github.com/rubenwiersma/gravo_mg_python)
 
 ![](https://rubenwiersma.nl/assets/img/publications/gravomg/teaser_gravomg.png)
 
@@ -9,8 +9,12 @@ by Ruben Wiersma, [Ahmad Nasikun](https://github.com/a-nasikun) (equal contribut
 
 If you need to solve linear systems on meshes or point clouds with >50.000 vertices, Gravo MG is what you need. Gravo MG is a fast geometric multigrid method that quickly computes a hierarchy used in an iterative multigrid solver. The use of graph Voronoi cells enables fast convergence, while allowing for fast construction.
 
-## Coming soon: Standalone C++ and Python libraries
-This repository contains the code to replicate the SIGGRAPH 2023 paper, including ablations and comparisons. That means the repository contains many components that are not strictly relevant for using Gravo MG. We plan to release a smaller, more lightweight library in the coming weeks.
+## Standalone C++ and Python libraries
+This repository contains the code to replicate the SIGGRAPH 2023 paper, including ablations and comparisons. That means the repository contains many components that are not strictly relevant for using Gravo MG.
+
+Please use the following packages if you want to use Gravo MG in practice:
+- [Gravo MG C++ library](https://github.com/rubenwiersma/gravo_mg_cpp)
+- [Gravo MG Python bindings](https://github.com/rubenwiersma/gravo_mg_python)
 
 ## Replicating our results
 The tables in our paper are created using the scripts in `experiments/table_scripts`. These scripts require you to build and install a Python package, using pip.
