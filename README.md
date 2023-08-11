@@ -17,7 +17,7 @@ Please use the following packages if you want to use Gravo MG in practice:
 - [Gravo MG Python bindings](https://github.com/rubenwiersma/gravo_mg_python)
 
 ## Replicating our results
-The tables in our paper are created using the scripts in `experiments/table_scripts`. These scripts require you to build and install a Python package, using pip.
+The tables in our paper are created using the scripts in `experiments/table_scripts`. These scripts require you to build and install a Python package using pip.
 
 ### Setting up the environment
 1. Clone this repository, including the submodules (required to pull in Pybind11), and change into the directory:
@@ -44,7 +44,7 @@ pip install -e ./gravomg_bindings
 This builds the Gravo MG C++ library and wraps it in a Python binding. The `-e` flag installs the package in the current folder, rather than your default Conda folder.
 
 ### Running the experiments
-First, [download the data](https://surfdrive.surf.nl/files/index.php/s/gOAGyWdSVJVPrBb), unzip, and place it in the `gravo-mg` folder. The result should be a folder `data` in the root of this repository.
+First, [download the data](https://surfdrive.surf.nl/files/index.php/s/gOAGyWdSVJVPrBb), unzip, and place it in the `gravo_mg` folder. The result should be a folder `data` in the root of this repository.
 
 You can run each experiment from the experiments folder, e.g.:
 ```bash
