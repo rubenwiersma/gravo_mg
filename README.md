@@ -10,9 +10,7 @@ by Ruben Wiersma, [Ahmad Nasikun](https://github.com/a-nasikun) (equal contribut
 If you need to solve linear systems on meshes or point clouds with >50.000 vertices, Gravo MG is what you need. Gravo MG is a fast geometric multigrid method that quickly computes a hierarchy used in an iterative multigrid solver. The use of graph Voronoi cells enables fast convergence, while allowing for fast construction.
 
 ## Standalone C++ and Python libraries
-This repository contains the code to replicate the SIGGRAPH 2023 paper, including ablations and comparisons. That means the repository contains many components that are not strictly relevant for using Gravo MG.
-
-Please use the following packages if you want to use Gravo MG in practice:
+This repository contains many components that are not strictly relevant for using Gravo MG (comparisons, related work, etc.). It is recommended to use the following packages, instead of this repository, if you want to use Gravo MG in practice:
 - [Gravo MG C++ library](https://github.com/rubenwiersma/gravo_mg_cpp)
 - [Gravo MG Python bindings](https://github.com/rubenwiersma/gravo_mg_python)
 
