@@ -68,7 +68,7 @@ If you've already installed the `gravomg` package before installing OneMKL, make
 Our code uses Derek Liu and colleagues' code for [Surface Multigrid via Intrinsic Prolongation](https://github.com/HTDerekLiu/surface_multigrid_code) to replicate their results and as a basis for the main solver routine.
 
 ### Data
-You can download the data used in the paper here: [download the data](https://surfdrive.surf.nl/files/index.php/s/gOAGyWdSVJVPrBb).
+You can download the data used in the paper here: [download the data](https://drive.google.com/file/d/1tX-bYgaccoic6yCWyUvucuJcKKcARVan/view?usp=sharing).
 
 [Please find the source and author of each mesh used in our experiments in the linked sheet.](https://docs.google.com/spreadsheets/d/1s5ogLIqmCHthTtyOcgc1SADOlBfXtgP1vG7Qh-oaVdk/edit?usp=sharing)
 
